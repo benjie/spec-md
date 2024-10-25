@@ -1,0 +1,216 @@
+{
+  "type": "Document",
+  "comments": [],
+  "title": {
+    "type": "DocumentTitle",
+    "value": "Testing biblio references"
+  },
+  "contents": [
+    {
+      "type": "Subsection",
+      "header": {
+        "type": "Subheader",
+        "title": "Introduction"
+      },
+      "contents": [
+        {
+          "type": "Paragraph",
+          "contents": [
+            {
+              "type": "Text",
+              "value": "..."
+            }
+          ]
+        },
+        {
+          "type": "Paragraph",
+          "contents": [
+            {
+              "type": "Text",
+              "value": "The "
+            },
+            {
+              "type": "Italic",
+              "contents": [
+                {
+                  "type": "Text",
+                  "value": "Byte Order Mark"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "value": " is a special Unicode code point which may appear at the beginning of a file which programs may use to determine the fact that the text stream is Unicode, and what specific encoding has been used. As files are often concatenated, a "
+            },
+            {
+              "type": "Italic",
+              "contents": [
+                {
+                  "type": "Text",
+                  "value": "Byte Order Mark"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "value": " may appear before or after any lexical token and is "
+            },
+            {
+              "type": "NonTerminal",
+              "name": "Ignored",
+              "params": null
+            },
+            {
+              "type": "Text",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "Paragraph",
+          "contents": [
+            {
+              "type": "Text",
+              "value": "..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "header": {
+        "type": "Header",
+        "level": 1,
+        "secID": null,
+        "title": "Response"
+      },
+      "contents": [
+        {
+          "type": "Paragraph",
+          "contents": [
+            {
+              "type": "Text",
+              "value": "When a server receives a well-formed "
+            },
+            {
+              "type": "Italic",
+              "contents": [
+                {
+                  "type": "Text",
+                  "value": "GraphQL-over-HTTP request"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "value": ", it must return a well‐formed "
+            },
+            {
+              "type": "Italic",
+              "contents": [
+                {
+                  "type": "Text",
+                  "value": "GraphQL Response"
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "value": ". The server’s response ..."
+            }
+          ]
+        },
+        {
+          "type": "Production",
+          "token": {
+            "type": "NonTerminal",
+            "name": "Test",
+            "params": null
+          },
+          "defType": 1,
+          "rhs": {
+            "type": "RHS",
+            "condition": null,
+            "tokens": [
+              {
+                "type": "Terminal",
+                "value": "the"
+              },
+              {
+                "type": "Terminal",
+                "value": "_GraphQL"
+              },
+              {
+                "type": "Terminal",
+                "value": "response_"
+              },
+              {
+                "type": "Terminal",
+                "value": "here"
+              },
+              {
+                "type": "Terminal",
+                "value": "should"
+              },
+              {
+                "type": "Terminal",
+                "value": "link"
+              },
+              {
+                "type": "Terminal",
+                "value": "to"
+              },
+              {
+                "type": "Terminal",
+                "value": "#sec-Response"
+              },
+              {
+                "type": "Terminal",
+                "value": "in"
+              },
+              {
+                "type": "Terminal",
+                "value": "the"
+              },
+              {
+                "type": "NonTerminal",
+                "name": "GraphQL",
+                "params": null
+              },
+              {
+                "type": "Terminal",
+                "value": "spec"
+              },
+              {
+                "type": "Terminal",
+                "value": ","
+              },
+              {
+                "type": "NonTerminal",
+                "name": "NOT",
+                "params": null
+              },
+              {
+                "type": "Terminal",
+                "value": "in"
+              },
+              {
+                "type": "Terminal",
+                "value": "the"
+              },
+              {
+                "type": "Terminal",
+                "value": "local"
+              },
+              {
+                "type": "Terminal",
+                "value": "spec."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

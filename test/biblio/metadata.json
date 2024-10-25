@@ -1,0 +1,10 @@
+{
+  "biblio": {
+    "https://www.unicode.org/glossary": {
+      "byte-order-mark": "#byte_order_mark"
+    },
+    "https://spec.graphql.org/draft/": {
+      "graphql-response": "#sec-Response"
+    }
+  }
+}

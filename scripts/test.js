@@ -27,6 +27,7 @@ runTests([
   testSource('definitions'),
   testSource('comments'),
   ['test/comments/input.md', 'test/comments/ast.json', 'test/comments/output-comments.html', '--includeComments'],
+  testSource('biblio', undefined, '-m test/biblio/metadata.json'),
 ]);
 
 function runTests(tests) {
